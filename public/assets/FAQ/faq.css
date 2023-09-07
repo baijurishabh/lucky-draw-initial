@@ -1,0 +1,97 @@
+.main-faq {
+    background-color: black;
+}
+
+.section-1-faq {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.faq-content {
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.faq-input {
+    padding: .490px 55px !important;
+    border-radius: .5rem !important;
+    border: 1px solid #6da1d5 !important;
+    background-color: rgba(255, 255, 255, 0.262) !important;
+}
+
+.faq-content-image {}
+
+.faq-content-image img {
+    width: 100%;
+    object-fit: scale-down;
+}
+
+.faq-content-btn {
+    color: #ffffff;
+    background-color: rgb(248, 97, 178);
+    padding: .6rem 2rem;
+    border-radius: 2rem !important;
+    border: 1px solid #ffffff00 !important;
+}
+
+.faq-content-btn2 {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    padding: .6rem 2rem;
+    border-radius: 2rem !important;
+    border: 1px solid #f56acb !important;
+}
+
+.accordion-faq {
+    background-color: black !important;
+    --bs-accordion-border-color: #000000 !important;
+    border-top: 1px solid #ffffff !important;
+    border-bottom: 1px solid #ffffff !important;
+}
+
+.accordion-header {
+    background-color: black !important;
+}
+
+.accordion-collapse {
+    color: white;
+    background-color: black !important;
+}
+
+.accordion-button {
+    color: white !important;
+    padding: 1rem 2rem !important;
+    /* border-bottom: 1px solid #000000 !important; */
+    outline: none !important;
+    border: 0 !important;
+    background-color: rgb(0, 0, 0) !important;
+    box-shadow: -10px 0 8px -8px black, 10px 0 8px -8px black;
+}
+
+.accordion-button:focus {
+    z-index: 0 !important;
+    border-color: #86b6fe00 !important;
+    outline: 0 !important;
+    box-shadow: -10px 0 8px -8px black, 10px 0 8px -8px black !important;
+}
+
+.accordion-item {
+    background-color: #000000 !important;
+    border-top: 1px solid #ffffff !important;
+    border-bottom: 1px solid #ffffff !important;
+}
+
+
+/* Custom style */
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(.7) !important;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+}

@@ -1,0 +1,65 @@
+.main-aboutUs {
+    background-color: black;
+}
+
+.section-1-aboutUs {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.aboutUs-content {
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    background-image: url("/assets/about_Us/Rectangle.png");
+}
+
+.aboutUs-input {
+    padding: .6rem .75rem !important;
+    border-radius: .5rem !important;
+    border: 1px solid #6da1d5 !important;
+    background-color: rgba(255, 255, 255, 0.262) !important;
+}
+
+.aboutUs-content-image {
+    position: relative;
+}
+
+.aboutUs-content-image img {
+    width: 500px;
+    object-fit: scale-down;
+    position: relative;
+    left: 20%;
+    /* right: auto; */
+    top: 10%;
+}
+
+.aboutUs-content-btn {
+    color: #ffffff;
+    background-color: rgb(248, 97, 178);
+    padding: .6rem 2rem;
+    border-radius: 2rem !important;
+    border: 1px solid #ffffff00 !important;
+}
+
+.aboutUs-content-btn2 {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    padding: .6rem 2rem;
+    border-radius: 2rem !important;
+    border: 1px solid #f56acb !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .aboutUs-content-image img {
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutUs-content-image img {
+        left: 0;
+        width: 100%;
+    }
+}

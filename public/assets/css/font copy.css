@@ -1,0 +1,29 @@
+@font-face {
+    font-family: p1;
+    src: url(../../assets/font/OTF/ClashDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: p2;
+    src: url(../../assets/font/OTF/ClashDisplay-Extralight.otf);
+}
+
+@font-face {
+    font-family: p3;
+    src: url(../../assets/font/OTF/ClashDisplay-Light.otf);
+}
+
+@font-face {
+    font-family: p4;
+    src: url(../../assets/font/OTF/ClashDisplay-Medium.otf);
+}
+
+@font-face {
+    font-family: p5;
+    src: url(../../assets/font/OTF/ClashDisplay-Regular.otf);
+}
+
+@font-face {
+    font-family: p6;
+    src: url(../../assets/font/OTF/ClashDisplay-Semibold.otf);
+}

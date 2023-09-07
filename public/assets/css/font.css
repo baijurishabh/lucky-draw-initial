@@ -1,0 +1,80 @@
+@font-face {
+    font-family: p1;
+    src: url(../../font/Aileron-Black.otf);
+}
+
+@font-face {
+    font-family: p2;
+    src: url(../../font/Aileron-BlackItalic.otf);
+}
+
+@font-face {
+    font-family: p3;
+    src: url(../../font/Aileron-Regular.otf);
+}
+
+@font-face {
+    font-family: p4;
+    src: url(../../font/Aileron-Bold.otf);
+}
+
+@font-face {
+    font-family: p5;
+    src: url(../../font/Aileron-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: p6;
+    src: url(../../font/Aileron-Heavy.otf);
+}
+
+@font-face {
+    font-family: p7;
+    src: url(../../font/Aileron-HeavyItalic.otf);
+}
+
+@font-face {
+    font-family: p8;
+    src: url(../../font/Aileron-Italic.otf);
+}
+
+@font-face {
+    font-family: p9;
+    src: url(../../font/Aileron-Light.otf);
+}
+
+@font-face {
+    font-family: p10;
+    src: url(../../font/Aileron-LightItalic.otf);
+}
+
+@font-face {
+    font-family: p11;
+    src: url(../../font/Aileron-Regular.otf);
+}
+
+@font-face {
+    font-family: p12;
+    src: url(../../font/Aileron-SemiBold.otf);
+}
+
+@font-face {
+    font-family: p13;
+    src: url(../../font/Aileron-SemiBoldItalic.otf);
+}
+
+@font-face {
+    font-family: p14;
+    src: url(../../font/Aileron-Thin.otf);
+}
+
+@font-face {
+    font-family: p15;
+    src: url(../../font/Aileron-ThinItalic.otf);
+}
+
+@font-face {
+    font-family: p16;
+    src: url(../../font/Aileron-UltraLight.otf);
+}
+

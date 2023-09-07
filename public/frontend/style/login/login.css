@@ -1,0 +1,202 @@
+.signin {
+  background: #101010;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.signin .first_form {
+  text-align: center;
+  padding: 5rem 5rem;
+}
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+.signin .first_form .sign_form {
+  padding: 0 3rem;
+}
+.signin .first_form .enter_deta {
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.signin .first_form .signin_google {
+  border: 1px solid #BCBCBC;
+  border-radius: 8px;
+  padding: 12px 88px;
+  font-size: 18px;
+  color: #FFFFFF;
+  background: transparent;
+}
+.signin .first_form .or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  font-size: 18px;
+  opacity: 0.5;
+  padding: 2rem 0;
+}
+.signin .first_form .or:after,
+.signin .first_form .or:before {
+  content: "";
+  display: block;
+  background: grey;
+  opacity: 0.5;
+  width: 50%;
+  height: 1px;
+  margin: 0 10px;
+}
+.signin .first_form .input {
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  background: transparent;
+  width: 100%;
+  color: #BCBCBC;
+  padding: 8px 0;
+}
+.signin .first_form textarea:focus,
+.signin .first_form input:focus {
+  outline: none;
+}
+.signin .first_form ::-moz-placeholder {
+  color: #BCBCBC;
+  opacity: 0.8;
+  /* Firefox */
+}
+.signin .first_form ::placeholder {
+  color: #BCBCBC;
+  opacity: 0.8;
+  /* Firefox */
+}
+.signin .first_form :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #BCBCBC;
+  opacity: 0.8;
+}
+.signin .first_form ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #BCBCBC;
+  opacity: 0.8;
+}
+.signin .first_form .remember_me {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.signin .first_form .remember_me .first {
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  display: flex;
+}
+.signin .first_form .remember_me .first p {
+  padding-left: 8px;
+}
+.signin .first_form .remember_me .first input {
+  border-radius: 3px;
+  height: 20px;
+  width: 20px;
+  background: transparent;
+  accent-color: rgb(249, 26, 242);
+}
+.signin .first_form .remember_me .second {
+  color: rgb(249, 26, 242);
+}
+.signin .first_form .login_btn {
+  background: #06FEB4;
+  border-radius: 8px;
+  padding: 12px 80px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.signin .first_form .opacity_0 {
+  opacity: 0.8;
+}
+.signin .first_form .rose {
+  padding-left: 4px;
+  opacity: 1;
+  color: rgb(249, 26, 242);
+}
+.signin .first_form .logo {
+  padding: 6rem 0;
+}
+.signin .first_img {
+  background-image: url(../../assets/image/login/appolinary-kalashnikova-WYGhTLym344-unsplash\ 1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .signin .first_form {
+    text-align: center;
+    padding: 5rem 0rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .signin .first_form .sign_form {
+    padding: 0 2rem;
+  }
+  .sign_form h1 {
+    font-size: 30px;
+  }
+  .signin .first_form .signin_google {
+    border: 1px solid #BCBCBC;
+    border-radius: 8px;
+    padding: 12px 55px;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: transparent;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .first_form {
+    width: 100%;
+  }
+  .first_img {
+    display: none;
+  }
+  .signin .first_form {
+    text-align: center;
+    padding: 5rem 4rem;
+  }
+  .sign_form h1 {
+    font-size: 36px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .signin .first_form {
+    text-align: center;
+    padding: 3rem 0rem;
+  }
+  .signin .first_form .signin_google {
+    border: 1px solid #BCBCBC;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: transparent;
+  }
+  .sign_form h1 {
+    font-size: 24px;
+  }
+  .signin .first_form .remember_me .first p {
+    padding-left: 3px;
+    font-size: 12px;
+  }
+  .remember_me .second p {
+    font-size: 12px;
+  }
+  .signin .first_form .opacity_0 {
+    font-size: 12px;
+  }
+  .signin .first_form .rose {
+    padding-left: 4px;
+    font-size: 12px;
+  }
+  .signin .first_form {
+    text-align: center;
+    padding: 6rem 0rem;
+  }
+}/*# sourceMappingURL=login.css.map */

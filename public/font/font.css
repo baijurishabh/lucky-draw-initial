@@ -1,0 +1,64 @@
+@font-face {
+    font-family: P1;
+    src: url(font/Aileron-Black.otf);
+}
+
+@font-face {
+    font-family: P2;
+    src: url(../../fonts/poppins/Poppins-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: P3;
+    src: url(../../fonts/poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: P4;
+    src: url(../../fonts/poppins/Poppins-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: P5;
+    src: url(../../fonts/poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: P6;
+    src: url(../../fonts/poppins/Poppins-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: P7;
+    src: url(../../fonts/poppins/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: P8;
+    src: url(../../fonts/poppins/Poppins-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: P9;
+    src: url(../../fonts/poppins/Poppins-Italic.ttf);
+}
+
+@font-face {
+    font-family: P10;
+    src: url(../../fonts/poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: P12;
+    src: url(../../fonts/poppins/Poppins-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: P13;
+    src: url(../../fonts/poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: birds-of;
+    src: url(../../fonts/Birds-of-Paradise.ttf);
+}
